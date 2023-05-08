@@ -1,0 +1,540 @@
+@media (min-width: 769px) {
+  /* --------------------------------------Login------------------------------------ */
+  .content-log-bg {
+    width: 90%;
+    min-width: 97%;
+    margin-left: 2.5rem;
+    background-color: white;
+    background-color: transparent;
+    display: flex;
+  }
+
+  .login-msg {
+    width: 65%;
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+  
+  .login-msg-row1 {
+    font-size: var(--font-sz2-);
+    padding-bottom: 18rem;
+  }
+
+  .login-msg-row1 p {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
+
+  .login-msg-row2 {
+    display: block;
+  }
+  
+  .content-log {
+    width: 33%;
+    margin: 0 auto;
+    background-color: #a4ae9e84;
+    margin: 5.5rem .7rem;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px lightgray;
+    box-shadow: 1px 1px 6px rgba(36, 33, 33, 0.737);
+    box-shadow: 2px 2px 8px rgba(36, 33, 33, 0.500);
+    padding: 1.5rem;
+  }
+
+  .content-log h3 {
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: var(--font-sz2-);
+    font-size: 1.3rem;
+  }
+
+  .content-log input {
+    font-size: var(--font-sz1-);
+  }
+
+  .content-log .no-acc {
+    display: none;
+  }
+
+  /* -----------------------------------signup-page--------------------------------- */
+  .content-reg-bg {
+    width: 97%;
+    margin-top: 1rem;
+    margin-top: .2rem;
+    margin-left: 2.5rem;
+    background-color: white;
+    padding: 0;
+  }
+  
+  .content-reg-bg-1 {
+    width: 100%;
+    background-color: #a4ae9e84;
+    box-shadow: 2px 2px 8px #A4AE9E;
+    padding: 2rem;
+  }
+  
+  .content-reg {
+    padding: 3rem 2rem;
+    padding-bottom: 5rem;
+    box-shadow: 2px 2px 8px #A4AE9E;
+    border-radius: 5px;
+    margin: auto;
+    width: 60%;
+  }
+  
+  .content-reg h3 {
+    font-size: var(--font-sz2-);
+  }
+  
+  .content-reg input {
+    font-size: var(--font-sz1-);
+  }
+
+  .content-reg select {
+    font-size: var(--font-sz1-);
+  }
+  
+  .signup-tp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  
+  .tp {
+    width: 60%;
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  
+  .signup-info input {
+    width: 83%;
+  }
+  
+  .signup-name {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signup-bio {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .signup-bio span {
+    width: 58%;
+    padding: .2rem;
+  }
+  
+  .signup-bio input {
+    padding: .5rem;
+  }
+  
+  .signup-bio select {
+    padding: .5rem;
+    width: 80%;
+  }
+  
+  .signup-email span {
+    max-width: 95%;
+    width: 100%;
+  }
+
+  .signup-pass {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signup-checkbox {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  input.checkbox {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .t-c {
+    padding-top: .5rem;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+  
+  /* ------------------------------------poll-page---------------------------------- */
+  .page-content-wrapper {
+    min-width: 97%;
+    margin-left: 2.5rem;
+  }
+  
+  .poll-section-bg {
+    width: 96%;
+    margin: 0 auto;
+  }
+  
+  .poll-section {
+    width: 70%;
+    margin: 6rem auto;
+    border-radius: 5px;
+    padding-bottom: 3rem;
+  }
+
+  .poll-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .poll-section label {
+    font-size: 1rem;
+  }
+  
+  
+  .poll-section input {
+    font-size: 1rem;
+    padding:.7rem;
+  }
+  
+  .poll-info {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  .poll-details {
+    width: 60%;
+  }
+  
+  .poll-gen-id {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  /* --------------------------------------id-page------------------------------------ */
+  .id-section-bg {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .id-section {
+    width: 70%;
+    margin: 6rem auto;
+    border-radius: 5px;
+    padding-bottom: 3rem;
+  }
+
+  .id-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .ids {
+    width: 50%;
+    height: 22vw;
+  }
+  
+  .ids span {
+    width: 10%;
+  }
+  
+  .id-btn {
+    width: 70%;
+  }
+  
+  /* --------------------------------------veri-page------------------------------------ */
+  .veri-section-bg {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .veri-section {
+    width: 70%;
+    margin: 6rem auto;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+  }
+
+  .veri-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .veri-section span {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .veri-section label {
+    font-size: 1rem;
+  }
+  
+  
+  .veri-section input {
+    font-size: 1rem;
+    padding:.7rem;
+  }
+
+  .veri-msg {
+    font-size: 1.2rem;
+  }
+  
+  /* --------------------------------------vote-page------------------------------------ */
+  .vote-section-bg {
+    width: 96%;
+    margin: 0 auto;
+  }
+  
+  .vote-section {
+    width: 70%;
+    margin: 6rem auto;
+    margin-top: 4rem;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+  }
+
+  .vote-section-bg h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 3rem;
+    padding: 0;
+  }
+
+  .vote-section h4 {
+    font-size: 1.3rem;
+  }
+
+  .vote-info {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .vote-msg {
+    font-size: 1.2rem;
+  }
+  
+  /* -----------------------------------result-page--------------------------------- */
+  .result-section-bg {
+    width: 96%;
+    margin: 0 auto;
+  }
+  
+  .result-section {
+    width: 70%;
+    margin: 6rem auto;
+    margin-top: 4rem;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+  }
+
+  .result-section-bg h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 3rem;
+    padding: 0;
+  }
+
+  .result-section h4 {
+    font-size: 1.3rem;
+  }
+
+  .result-info {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .result-msg {
+    font-size: 1.2rem;
+  }
+  
+  /* ----------------------------------service-page--------------------------------- */
+  .service-content {
+    text-align: center;
+  }
+
+  .service-content h3 {
+    font-size: var(--font-sz2-);
+  }
+
+  .service-info {
+    padding: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-left: 1rem;
+  }
+
+  .service-info h3 {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .service-search {
+    width: 47%;
+  }
+  
+  .service-search-msg {
+    font-size: 1.8rem;
+    color: white;
+  }
+  
+  .search {
+    width: 100%;
+  }
+  
+  .search input {
+    padding: .8rem .5rem;
+    font-size: var(--font-sz1-);
+    box-shadow: 1px 1px 2px lightgray;
+  }
+  
+  .search button {
+    border-radius: 0 5px 5px 0;
+    padding: .5rem 2rem;
+    border-radius: 0;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 1px 1px 6px #21B900;
+  }
+  
+  .service-msg {
+    width: 45%;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  .service-msg h3 {
+    font-size: 1.8rem;
+    padding: .3rem;
+    border: #21B900 2px solid;
+    border-radius: 100px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: .8rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+  }
+  
+  .service-list-section h3 {
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    width: 82%;
+  }
+  
+  .service-content-list {
+    margin: 1rem 2rem;
+  }
+  
+  .service-list-section h4 {
+    font-size: 1.2rem;
+  }
+  
+  .service-content-list div {
+    display: inline-block;
+    margin: .3rem .2rem;
+    min-height: 200px;
+  }
+  
+  .service-section-col-1 {
+    width: 25%;
+  }
+  
+  .service-section-col-2 {
+    width: 35%;
+  }
+  
+  .service-section-col-3 {
+    border: red solid 2px;
+    width: 43%;
+  }
+
+  /* --------------------------------------about-page------------------------------------- */
+  .about-content {
+    margin: 2rem 6rem;
+  }
+  
+  .about-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-msg-bg {
+    background-size: cover;
+    background-repeat: round;
+  }
+
+  .about-msg {
+    font-size: var(--font-sz2-);
+  }
+
+  .about-rating {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    gap: 2rem;
+  }
+
+  .overall,
+  .recommend,
+  .approval {
+    width: 30%;
+  }
+
+  .about-per {
+    font-size: 2rem;
+  }
+  
+  /* --------------------------------------contact-page------------------------------------- */
+  .contact-content-bg {
+    width: 98%;
+    margin: 0 auto;
+    margin-left: 2rem;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    padding: 18rem 4rem 4rem 4rem;
+  }
+  
+  .contact-content h3 {
+    font-size: 2rem;
+  }
+  
+  .contact-details {
+    width: 50%;
+  }
+
+  .contact-dtl {
+    border-radius: 5px 0 0 5px;
+  }
+
+  .contact-dtl div {
+    margin-top: 1.4rem;
+  }
+  
+  .contact-msg {
+    width: 50%;
+    padding-top: .03rem;
+  }
+  
+  .contact-msg-details {
+    background-color: #c9c5c5e7;
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2.4rem;
+    box-shadow: 2px 2px 8px #A4AE9E;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .contact-msg-details label {
+    font-size: 1rem;
+  }
+  
+  .contact-msg-details input {
+    font-size: 1rem;
+    padding:.7rem;
+  }
+  
+}
